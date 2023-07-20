@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+main {
+  background-color: #FFFFFF;
+  height: 280px;
+  max-width: 730px;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 12.5%;
+}
+
+.preview-component-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-column img {
+  width: 285px;
+  height: 280px;
+  object-fit: cover;
+  object-position: left;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.title {
+  font-weight: 700;
+  font-family: "Manrope";
+  color: #48556A;
+  max-width: 365px;
+  font-size: 1.3rem;
+  margin-top: 32px;
+  margin-left: 40px;
+}
+
+.description {
+  font-weight: 500;
+  font-family: "Manrope";
+  color: #6E8098;
+  font-size: 0.821rem;
+  max-width: 365px;
+  margin-top: 12px;
+  margin-left: 40px;
+}
+
+.author-photo {
+  width: 40px;
+  border-radius: 20px;
+  margin-right: 16px;
+}
+
+.icon-box {
+  height: 32px;
+  width: 32px;
+  background: #ECF2F8;
+  border-radius: 16px;
+  text-align: center;
+  align-items: center;
+}
+
+.icon-box img {
+  padding-top: 8px;
+}
+
+.author-name {
+  margin-right: 161px;
+}
+
+.name {
+  font-family: "Manrope";
+  font-weight: 700;
+  color: #48556A;
+  font-size: 13px;
+}
+
+.date {
+  font-family: "Manrope";
+  font-weight: 500;
+  font-size: 13px;
+  color: #9DAEC2;
+}
+
+.author-box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 40px;
+}
